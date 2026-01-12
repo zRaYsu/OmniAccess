@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniAccess - Tienda de Cuentas Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animación de entrada -->
+    <div id="intro-animation" class="intro-animation">
+        <div class="intro-container">
+            <div class="logo-intro">
+                <img src="image/logo.png" alt="OmniAccess Logo" class="logo-img">
+            </div>
+            <div class="text-intro" id="text-intro">
+                <span class="letter">O</span>
+                <span class="letter">m</span>
+                <span class="letter">n</span>
+                <span class="letter">i</span>
+                <span class="letter">A</span>
+                <span class="letter">c</span>
+                <span class="letter">c</span>
+                <span class="letter">e</span>
+                <span class="letter">s</span>
+                <span class="letter">s</span>
+            </div>
+            <div class="liquid-effect" id="liquid-effect"></div>
+        </div>
+    </div>
+
+    <div id="main-content" class="main-content hidden">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-container">
+                <div class="logo-header">
+                    <img src="image/logo.png" alt="OmniAccess" class="header-logo">
+                    <h1 class="site-title">OmniAccess</h1>
+                </div>
+                <p class="tagline">⚠ Obtendrás este producto contactando a través de ticket en nuestro Discord, aportando el recibo de la compra.</p>
+            </div>
+            <div class="guarantee-banner">
+                <p class="guarantee-banner-text">⛑ Disfruta de estos servicios durante varios meses con total tranquilidad. Además, te ofrecemos 3 meses de garantía: si el servicio deja de funcionar durante ese tiempo, lo reemplazamos sin coste adicional.</p>
+            </div>
+        </header>
+
+        <main class="services-container">
+            <div class="services-grid" id="services-grid">
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">by kryxuss</p>
+                <div class="footer-links">
+                    <a href="https://www.instagram.com/kryxziii/" target="_blank" class="footer-link">
+                        <span class="footer-link-icon">📷</span> Instagram
+                    </a>
+                    <span class="footer-separator">•</span>
+                    <span class="footer-link">
+                        <span class="footer-link-icon">💬</span> Discord: kryxuss
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-content" id="modal-content">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
