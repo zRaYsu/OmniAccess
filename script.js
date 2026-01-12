@@ -29,7 +29,7 @@ const serviceStocks = {
 
 // Precios de cada servicio (en euros)
 const servicePrices = {
-    'Netflix': 2.50,
+    'Netflix': 4.50,
     'Disney Plus': 2.00,
     'Prime Video': 3.23,
     'HBO Max': 2.50,
@@ -39,20 +39,20 @@ const servicePrices = {
     'Paramount': 1.50,
     'AMC Plus': 1.00,
     'Molotov.tv': 1.00,
-    'Spotify': 2.00,
+    'Spotify': 6.14,
     'Deezer': 1.50,
     'Xbox': 3.00,
     'Ubisoft': 2.00,
     'Minecraft': 3.00,
-    'Roblox': 2.00,
-    'Geoguessr': 1.50,
-    'Twitch': 1.05,
+    'Roblox': 3.28,
+    'Geoguessr': 2.50,
+    'Twitch': 0.49,
     'Filmora': 3.00,
-    'CapCut': 1.50,
+    'CapCut': 3.00,
     'NordVPN': 2.00,
     'Duolingo': 1.50,
     'Server Boost': 2.00,
-    'NBA': 2.50,
+    'NBA': 0.57,
     'Llaollao': 1.00
 };
 
