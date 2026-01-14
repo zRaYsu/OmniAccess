@@ -24,13 +24,14 @@ const serviceStocks = {
     'HBO Max': 0,
     'Minecraft': 7,
     'Roblox': 0,
-    'Spotify': 0
+    'Spotify': 0,
+    'Movistar+': 2
 };
 
 // Precios de cada servicio (en euros)
 const servicePrices = {
     'Netflix': 6.50,
-    'Disney Plus': 2.00,
+    'Disney Plus': 4.00,
     'Prime Video': 3.23,
     'HBO Max': 2.50,
     'Crunchyroll': 1.50,
@@ -52,8 +53,9 @@ const servicePrices = {
     'NordVPN': 4.35,
     'Duolingo': 1.50,
     'Server Boost': 2.00,
-    'NBA': 1.00,
-    'Llaollao': 1.00
+    'NBA': 3.49,
+    'Llaollao': 1.00,
+    'Movistar+': 7.00
 };
 
 // Lista de servicios con información completa (organizados por categorías)
@@ -69,6 +71,7 @@ const services = [
     { name: 'Paramount', image: 'Paramount.jpeg' },
     { name: 'AMC Plus', image: 'amcplus.png' },
     { name: 'Molotov.tv', image: 'molotov.tv.png' },
+    { name: 'Movistar+', image: 'movistar.png' },
     // Streaming de Música
     { name: 'Spotify', image: 'Spotify.png' },
     { name: 'Deezer', image: 'deezer.jpeg' },
@@ -215,6 +218,11 @@ const serviceDetails = {
     'Spotify': {
         description: 'Cuenta de Spotify Premium con acceso completo. Pago único, no es suscripción oficial. Incluye música ilimitada y alta calidad.',
         features: ['Música ilimitada', 'Sin anuncios', 'Audio de alta calidad', 'Descargas offline', 'Reproducción aleatoria'],
+        guarantee: '2 meses de garantía + Soporte 24/7'
+    },
+    'Movistar+': {
+        description: 'Cuenta de Movistar+ Premium con acceso completo. Pago único, no es suscripción oficial. Incluye todo el contenido premium y eventos en vivo.',
+        features: ['Contenido exclusivo', 'Eventos en vivo', '4K Ultra HD', 'Múltiples dispositivos', 'Sin anuncios'],
         guarantee: '2 meses de garantía + Soporte 24/7'
     }
 };
