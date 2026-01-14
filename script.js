@@ -8,7 +8,7 @@ const serviceStocks = {
     'Geoguessr': 220,
     'DAZN': 182,
     'Disney Plus': 112,
-    'Crunchyroll': 325,
+    'Crunchyroll': 326,
     'Hulu': 52,
     'Paramount': 1,
     'Deezer': 93,
