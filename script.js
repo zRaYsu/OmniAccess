@@ -9,7 +9,7 @@ const serviceStocks = {
     'DAZN': 182,
     'Disney Plus': 112,
     'Crunchyroll': 326,
-    'Hulu': 52,
+    'Hulu': 0,
     'Paramount': 1,
     'Deezer': 93,
     'Xbox': 3,
