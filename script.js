@@ -7,7 +7,7 @@ const serviceStocks = {
     'Duolingo': 1,
     'Geoguessr': 220,
     'DAZN': 182,
-    'Disney Plus': 112,
+    'Disney Plus': 6,
     'Crunchyroll': 326,
     'Hulu': 0,
     'Paramount': 1,
