@@ -22,7 +22,7 @@ const serviceStocks = {
     'Server Boost': 0,
     'Netflix': 0,
     'HBO Max': 0,
-    'Minecraft': 10,
+    'Minecraft': 0,
     'Roblox': 0,
     'Spotify': 0,
     'Movistar+': 2
