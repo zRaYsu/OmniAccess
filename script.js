@@ -11,7 +11,7 @@ const serviceStocks = {
     'Crunchyroll': 326,
     'Hulu': 0,
     'Paramount': 4,
-    'Deezer': 93,
+    'Deezer': 231,
     'Xbox': 3,
     'AMC Plus': 20,
     'Molotov.tv': 16,
